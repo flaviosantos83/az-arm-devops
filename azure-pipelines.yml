@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'WebApp/azuredeploy.json'
-    overrideParameters: '-projectName webapp -linkedTemplateUri https://raw.githubusercontent.com/flaviosantos83/az-arm-devops/master/WebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName azpipeline -linkedTemplateUri https://raw.githubusercontent.com/flaviosantos83/az-arm-devops/master/WebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
